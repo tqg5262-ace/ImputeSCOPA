@@ -1,20 +1,22 @@
 # ImputeSCOPA
 imputeSCOPA: a Python software for imputing high-dimensional numeric data using the random forest algorithm. Adapted from the original C++ imputeSCOPA implementation.
 
-Requirements:
+## Requirements
 1. Python 3.10 or newer
 2. NumPy ≥1.24, <3
 
-Organisation:
-impute_scopa.py: main imputation program
-requirements.txt: required Python dependency
-test_impute_scopa.py: automated tests
-VALIDATION.md: validation results
-data: example dataset
+## Organisation
+- `impute_scopa.py`: main imputation program.
+- `requirements.txt`: required Python dependency.
+- `test_impute_scopa.py`: automated tests.
+- `VALIDATION.md`: validation results.
+- `data`: example dataset.
 
-To install:
+## To install
 From the project folder:
+```bash
 python3 -m pip install -r requirements.txt
+```
 No compilation is required. Display available options with:
 python3 impute_scopa.py -h
 
