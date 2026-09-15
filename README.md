@@ -5,7 +5,7 @@ Requirements:
 1. Python 3.10 or newer
 2. NumPy ≥1.24, <3
 
-Organization:
+Organisation:
 impute_scopa.py: main imputation program
 requirements.txt: required Python dependency
 test_impute_scopa.py: automated tests
